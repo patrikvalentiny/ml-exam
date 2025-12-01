@@ -19,4 +19,4 @@ gemini_model_client = OpenAIChatCompletionClient(
     model_info=model_info,
     api_key=os.getenv("GEMINI_API_KEY"),
     base_url="https://generativelanguage.googleapis.com/v1beta/openai/"
-)
+    )
