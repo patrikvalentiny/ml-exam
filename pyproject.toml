@@ -6,7 +6,7 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "autogen-agentchat>=0.7.5",
-    "autogen-ext[ollama,openai]>=0.7.5",
-    "chonkie[chroma,model2vec,st]>=1.4.2",
+    "autogen-ext[chromadb,ollama,openai]>=0.7.5",
+    "chonkie[chroma,st,gemini,semantic]>=1.4.2",
     "dotenv>=0.9.9",
 ]
