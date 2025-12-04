@@ -13,7 +13,9 @@ def save_file(content: str, filename: str) -> str:
     """
     try:
         timestamp_str = datetime.now().strftime("%Y%m%d_%H%M%S")
-        filename_with_timestamp = f"{filename}_{timestamp_str}"
+        filename_without_ext = filename.rsplit('.', 1)[0]
+        file_extension = filename.split('.')[-1]
+        filename_with_timestamp = f"{filename_without_ext}_{timestamp_str}.{file_extension}"
         with open(filename_with_timestamp, "w", encoding="utf-8") as f:
             f.write(content)
         return f"Successfully saved content"

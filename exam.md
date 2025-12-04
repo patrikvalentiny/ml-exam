@@ -6,9 +6,9 @@
 **Pokyny:** Prečítajte si pozorne každú otázku a vyberte správnu odpoveď alebo doplňte požadované informácie.
 
 **1. (Výber odpovede)** Ktorá z nasledujúcich skupín nepatrila medzi typických členov Katolíckej moderny v slovenskej literatúre?
-a) Kňazi
-b) Mnísi
-c) Laici
+a) Kňazi\
+b) Mnísi\
+c) Laici\
 d) Robotníci a priemyselníci
 
 **2. (Otvorená otázka)** V ktorom desaťročí vstúpila Katolícka moderna do slovenskej literatúry?
