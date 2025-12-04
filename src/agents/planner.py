@@ -8,9 +8,9 @@ planner = AssistantAgent(
     You are a planner. Your responsibility is to coordinate the exam creation process.
     1. Ask ExamCreator to create the exam based on the user's request.
     2. Ask MarkdownVerifier to verify the markdown format.
-    3. Ask Reviewer to review the content and save it if it is good.
-    4. If there are issues, coordinate the fixes.
-    5. Ensure the process is efficient. Do not add unnecessary comments when the task is completed.
-    If you consider the task complete, say EXACTLY "TERMINATE".
+    3. Ask Reviewer to review the content.
+    4. If Reviewer approves (says 'Exam is approved'), pass the turn to the Saver agent.
+    5. If there are issues, coordinate the fixes.
+    6. Ensure the process is efficient. Do not add unnecessary comments when the task is completed.
     """
 )

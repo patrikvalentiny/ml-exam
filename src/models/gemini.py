@@ -16,7 +16,7 @@ model_info = ModelInfo(
     vision=True,
     function_calling=True,
     json_output=True,
-    family='gemini-2.5-flash',
+    family='gemini',
     structured_output=True,
     multiple_system_messages=True
 )
