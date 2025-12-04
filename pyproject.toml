@@ -9,4 +9,5 @@ dependencies = [
     "autogen-ext[chromadb,ollama,openai]>=0.7.5",
     "chonkie[chroma,st,gemini,semantic]>=1.4.2",
     "dotenv>=0.9.9",
+    "pymarkdownlnt>=0.9.33",
 ]

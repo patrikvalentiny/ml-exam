@@ -5,6 +5,6 @@ chroma_memory = ChromaDBVectorMemory(
         collection_name="documents",
         persistence_path="./chroma_db",
         k=10,
-        # score_threshold=0.4,
+        score_threshold=0.6,
         )
 )
