@@ -8,7 +8,7 @@ load_dotenv()
 keys = [
     os.getenv("GEMINI_EXAMK1"),
     os.getenv("GEMINI_EXAMK2"),
-    os.getenv("UNIF2025"),
+    os.getenv("GEMINI_EXAMK3"),
 ]
 
 

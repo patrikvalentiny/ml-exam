@@ -8,7 +8,7 @@ from src.agents.exam_creator import exam_creator
 from src.agents.markdown_verifier import markdown_verifier
 from src.agents.reviewer import reviewer
 from src.agents.saver import saver
-from src.task import task_description_sk
+from src.task import task_description, task_description_sk
 
 
 async def main():
@@ -19,8 +19,13 @@ async def main():
         termination_condition=termination,
     )
 
+    topic = input("Enter the exam topic: ").strip()
+    if not topic:
+        print("No topic provided")
+        return
+
     try:
-        stream = team.run_stream(task=task_description_sk(topic="moderna"))
+        stream = team.run_stream(task=task_description(topic=topic))
         await Console(stream)
     except Exception as e:
         print(f"Error occurred: {e}")
