@@ -13,7 +13,6 @@ exam_creator = AssistantAgent(
     Do not fabricate information; base questions on provided context if available.
     Format the answer in a markdown code block.
     Return an answer key after the quiz, for open questions highlight the main points that the answer needs to cover.
-    The quiz needs to be in Slovak language.
     If the Reviewer has approved the exam, do not generate any new content.
     """
 )
