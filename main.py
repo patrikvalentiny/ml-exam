@@ -18,11 +18,7 @@ async def main():
         [planner, exam_creator, markdown_verifier, reviewer, saver],
         termination_condition=termination,
     )
-
-    topic = input("Enter the exam topic: ").strip()
-    if not topic:
-        print("No topic provided")
-        return
+    topic = "sturovci"
 
     try:
         stream = team.run_stream(task=task_description(topic=topic))

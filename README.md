@@ -60,7 +60,8 @@ python src/chunker.py
 
 ### 2. Running the Generator
 
-To start the exam generation process, run the main script. This initializes the agent team and starts the workflow. The agents will collaborate to create an exam, which will be saved in the `exams/` directory.
+To start the exam generation process, adjust the **topic** variable in `main.py` and run the main script. 
+This initializes the agent team and starts the workflow. The agents will collaborate to create an exam, which will be saved in the `exams/` directory.
 
 ```bash
 # Using uv
